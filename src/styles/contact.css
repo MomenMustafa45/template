@@ -1,0 +1,96 @@
+.form-container {
+    display: flex;
+    padding: 30px 40px;
+    align-items: start;
+}
+
+.form-container form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.form-container form input {
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 15px 0;
+}
+
+.form-container form textarea {
+    margin: 20px 0;
+    padding: 20px;
+    font-size: 19px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid #ccc;
+}
+
+.form-container form button {
+    width: 30%;
+    padding: 25px 0px;
+    background-color: #19c8fa;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    align-self: end;
+}
+
+
+/* ADDRESS AND NUMBERS */
+/* ADDRESS AND NUMBERS */
+
+.form-container .details {
+    width: 25%;
+}
+
+.form-container .details .numbers {
+    margin-bottom: 100px;
+}
+
+.form-container .details h4 {
+    font-size: 25px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.form-container .details h4:first-child {
+    margin: 5px 0;
+}
+
+.form-container .details p {
+    color: #777;
+    font-size: 20px;
+}
+
+.form-container .details p:last-child {
+    line-height: 2;
+}
+
+
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column-reverse;
+    }
+
+    .form-container .details {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .form-container .details .numbers {
+        margin-bottom: 0;
+    }
+
+    .form-container form {
+        width: 100%;
+    }
+
+    .form-container form button {
+        width: 35%;
+    }
+}

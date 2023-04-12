@@ -1,0 +1,47 @@
+.skills-parent {
+    display: flex;
+    padding: 50px 20px;
+    justify-content: space-around;
+}
+
+.testimo-parent {
+    width: 40%;
+}
+
+.text-skills-container {
+    text-align: center;
+    margin: 0px 0 60px 0;
+}
+
+.text-skills-container h3 {
+    font-weight: normal;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.text-skills-container p {
+    line-height: 1.8;
+}
+
+.skills-container {
+    width: 40%;
+}
+
+
+@media(max-width: 992px) {
+    .skills-parent {
+        display: flex;
+        padding: 50px 20px;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimo-parent {
+        width: 90%;
+    }
+
+    .skills-container {
+        width: 75%;
+    }
+}

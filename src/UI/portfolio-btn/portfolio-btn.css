@@ -1,0 +1,15 @@
+.port-btn {
+    border: none;
+    padding: 15px 15px;
+    border-radius: 3px;
+    text-transform: capitalize;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 16px;
+    outline: none;
+}
+
+.active {
+    background-color: #19c8fa;
+    color: white;
+}

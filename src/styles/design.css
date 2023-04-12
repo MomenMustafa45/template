@@ -1,0 +1,48 @@
+.design-parent {
+    padding: 100px 0;
+    background-color: rgb(102, 102, 102);
+    display: flex;
+    justify-content: end;
+    background-image: url('../assests/mobile.png');
+    background-repeat: no-repeat;
+    background-position: 10% 170%;
+    overflow: hidden;
+}
+
+.designs-container {
+    width: 50%;
+    background-color: rgb(40, 111, 130);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.designs-container h3 {
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.designs-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.designs-container ul li {
+    display: flex;
+}
+
+.designs-container ul li p:first-child {
+    margin-right: 20px;
+}
+
+@media(max-width:768px) {
+    .design-parent {
+        background-image: url('');
+    }
+
+    .designs-container {
+        width: 100%;
+    }
+}
