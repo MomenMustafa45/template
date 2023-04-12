@@ -10,12 +10,14 @@ import Pricing from "../Pricing/Pricing";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 import ScrollButton from "../../UI/scroll-btn/ScrollButton";
+import Services from "../Services/Services";
 
 const Home = () => {
   return (
     <>
       <ScrollButton />
       <LandingPage />
+      <Services />
       <Design />
       <Portfolio />
       <VideoPage />
