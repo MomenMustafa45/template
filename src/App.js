@@ -11,12 +11,8 @@ function App() {
 
   return (
     <>
-
       <Routes>
-        <Route path='/' element={<Home />} />
-
-
-
+        <Route path='/template' element={<Home />} />
       </Routes>
 
 
