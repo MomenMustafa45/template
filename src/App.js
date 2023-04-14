@@ -1,4 +1,4 @@
-import { Route, Routes, BrowserRouter } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home/Home';
 
@@ -6,8 +6,6 @@ import Home from './pages/Home/Home';
 
 
 function App() {
-
-
 
 
   return (

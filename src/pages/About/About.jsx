@@ -13,7 +13,7 @@ const About = () => {
        porttitor at sem. Mauris blandit aliquet elit,
        eget tincidunt. "
       />
-      <img src={image} alt="" />
+      <img className="about-img" src={image} alt="" />
     </div>
   );
 };
