@@ -5,7 +5,7 @@ import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { useEffect, useState } from "react";
 
 const ScrollButton = () => {
-  const [showScrollBtn, setShowScrollBtn] = useState(true);
+  const [showScrollBtn, setShowScrollBtn] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
       window.scrollY > 1000 ? setShowScrollBtn(true) : setShowScrollBtn(false);
